@@ -173,8 +173,8 @@ h2 {
 .close-hamburger-icon.active::after {
     height: 50px;
     color: var(--green);
-    position: relative; */
-}
+    position: relative; 
+} */
 
 
 /* ----------------------------------------------------------- */
@@ -323,7 +323,7 @@ h2 {
     display: flex;
     flex-direction: column;
     margin-bottom: 8px;
-} */
+}
 
 
 @media (min-width: 768px) {
@@ -337,6 +337,7 @@ h2 {
         margin: 40px auto;
     }
 }
+
 
 #contact input[type="submit"] {
     background-color: var(--peach);
@@ -378,9 +379,15 @@ h2 {
 /* social-links */
 
 #social-links {
-    height: 50px;
+    height: 24px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.imgfacebook, .imgtwitter, .imginstagram, .imggithub {
     color: var(--green);
-    position: left;
 }
 
 
