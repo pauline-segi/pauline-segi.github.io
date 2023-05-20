@@ -88,6 +88,10 @@ textarea {
 
 /* Header */
 
+h2 {
+    color: var(--peach);
+}
+
 /* Hero */
 
 #hero {
@@ -138,7 +142,7 @@ textarea {
 .hamburger-icon {
     height: 50px;
     color: var(--green);
-    position: relative;
+    position: right;
 }
 
 /* ----------------------------------------------- */
@@ -193,6 +197,7 @@ textarea {
     color: var(--green);
     display: block;
     padding: 4px 16px;
+    text-align: right;
 }
 
 
@@ -288,10 +293,21 @@ textarea {
 }
 
 
+/* welcome-to-me */
+
+.welcome-to-me {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
 /* Contact section */
 
 #contact {
-    padding: 48px 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    color: var(--peach);
 }
 
 #contact input,
@@ -299,9 +315,16 @@ textarea {
     margin-bottom: 16px;
 }
 
-#contact h2 {
-    margin-bottom: 16px;
-}
+/* /* #your-name, #your-email, #city, #message {
+    margin-bottom: 8px;
+} */
+
+#your-name, #your-email, #city, #message {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+} */
+
 
 @media (min-width: 768px) {
     #contact h2 {
@@ -316,7 +339,7 @@ textarea {
 }
 
 #contact input[type="submit"] {
-    background-color: var(--green);
+    background-color: var(--peach);
     border: 0;
     border-radius: 4px;
     margin-top: 8px;
@@ -330,19 +353,43 @@ textarea {
 
 .btn-submit:hover {
     /* outline: 2px solid #74d47d; */
-    box-shadow: 4px 4px 4px var(--lightgreen);
+    /* box-shadow: 4px 4px 4px var(--peach); */
     /* transform: scale(1.1); */
     transform: translateY(-4px);
     /* background-color: rgba(255, 255, 255, 0.6) */
 }
 
+/* home-examples */
+
+
+h2 {
+    text-align: center;
+    padding: 24px;
+}
+
+.work1, .work2, .work3 {
+    height: 50%;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
+/* social-links */
+
+#social-links {
+    height: 50px;
+    color: var(--green);
+    position: left;
+}
+
+
 /* Footer */
 
 footer {
-    padding: 16px;
+    padding: 24px;
     text-align: center;
 }
-
 
 .ps-linkedin {
     position: relative;

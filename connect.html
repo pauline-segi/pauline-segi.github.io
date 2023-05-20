@@ -4,59 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pauline Segi: Connect</title>
+    <title>Pauline Segi</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <section id="hero">
-                <h1><span class="hero-accent">Pauline Segi</span></h1>
-            <!-- <img src="img/pauline.jpg" alt="Photo of Pauline smiling at the camera" class="img-pauline"> -->
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="hamburger-icon">
-                <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
-            </svg>
+            <h1><a href="home.html" class="hero-accent">Pauline Segi</a></h1>
+            <nav class="mobile-nav display-none">
+                <ul>
+                    <li>
+                        <a href="home.html" class="mobilenav-home">Home</a>
+                    </li>
+                    <li>
+                        <a href="welcome.html" class="mobilenav-welcome">Welcome to me!</a>
+                    </li>
+                    <li>
+                        <a href="passion.html" class="mobilenav-passion">Passion Projects</a>
+                    </li>
+                    <li>
+                        <a href="work.html" class="mobilenav-work">Work Projects</a>
+                    </li>
+                    <li>
+                        <a href="connect.html" class="mobilenav-connect">Connect</a>
+                    </li>
+                </ul>
+            </nav>    
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" fill="currentColor" class="hamburger-icon">
+                    <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+                </svg>
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" fill="currentColor" class="hamburger-icon">
+                    <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg> -->
+            <nav class="desktop-nav">
+                <ul>
+                    <li>
+                        <a href="home.html" class="desktopnav-home">Home</a>
+                    </li>
+                    <li>
+                        <a href="welcome.html" class="desktopnav-welcome">Welcome to me!</a>
+                    </li>
+                    <li>
+                        <a href="passion.html" class="desktopnav-passion">Passion Projects</a>
+                    </li>
+                    <li>
+                        <a href="work.html" class="desktopnav-work">Work Projects</a>
+                    </li>
+                    <li>
+                        <a href="connect.html" class="desktopnav-connect">Connect</a>
+                    </li>
+                </ul>
+            </nav>
         </section>
-        <nav class="desktop-nav">
-            <ul>
-                <li>
-                    <a href="home.html">Home</a>
-                </li>
-                <li>
-                    <a href="welcome.html">Welcome to me!</a>
-                </li>
-                <li>
-                    <a href="passion.html">Passion Projects</a>
-                </li>
-                <li>
-                    <a href="work.html">Work Projects</a>
-                </li>
-                <li>
-                    <a href="connect.html">Connect</a>
-                </li>
-            </ul>
-        </nav>
-        <nav class="mobile-nav display-none">
-            <ul>
-                <li>
-                    <a href="home.html">Home</a>
-                </li>
-                <li>
-                    <a href="welcome.html">Welcome to me!</a>
-                </li>
-                <li>
-                    <a href="passion.html">Passion Projects</a>
-                </li>
-                <li>
-                    <a href="work.html">Work Projects</a>
-                </li>
-                <li>
-                    <a href="connect.html">Connect</a>
-                </li>
-            </ul>
-        </nav>
     </header>
     <section id="contact">
-        <h2>Get in touch</h2>
+        <h2>Want to learn more? 
+            <br>
+            Let's connect!
+        </h2>
         <form action="https://formspree.io/f/xeqwdrva" method="POST">
             <label>
                 Your Name
@@ -82,8 +86,11 @@
             </label>    
         </form>
     </section>
+    <section id="social-links">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg>
+    </section>
     <footer>
-        <small>Website made with ❤️ by <a href="linkedin">Pauline</a></small>
+        <small>Website made with ❤️ by <a href="https://www.linkedin.com/in/pauline-segi/" target="_blank" class="ps-linkedin">Pauline</a></small>
     </footer>
     <script src="js/script.js"></script>
 </body>
