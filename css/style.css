@@ -374,11 +374,39 @@ h2 {
     padding: 24px;
 }
 
-.work1, .work2, .work3 {
-    height: 50%;
+@media (min-width: 768px) {
+    .passion1, .work1, .work2, .work3 {
+        padding-bottom: 24px;
+    }
+    
+    .work-examples {
+        width: auto;
+        height: 600px;
+        display: block;
+        align-items: center;
+        padding-bottom: 24px;
+        padding-left: auto; 
+        padding-right: auto; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+}
+
+
+.passion1, .work1, .work2, .work3 {
     padding-bottom: 24px;
-    padding-left: 24px;
-    padding-right: 24px;
+}
+
+.work-examples {
+    width: 400px;
+    height: auto;
+    display: block;
+    align-items: center;
+    padding-bottom: 24px;
+    padding-left: auto; 
+    padding-right: auto; 
+    margin-left: auto; 
+    margin-right: auto;
 }
 
 .example-proj {
@@ -389,19 +417,22 @@ h2 {
 
 /* social-links */
 
-.imgfacebook, .imgtwitter, .imginstagram, .imggithub {
-    fill: #74d47d;
-    height: 40px;
-    /* flex-direction: row; */
-    /* display: flex; */
-    /* display: inline-block; */
-    /* justify-content: center; */
-    align-items: center;
-    display:inline;
-    margin-left: auto;
+.social-links {
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    gap: 20px;
+    padding-left: auto; 
+    padding-right: auto; 
+    margin-left: auto; 
     margin-right: auto;
 }
 
+.imgfacebook, .imgtwitter, .imggithub, .imginstagram {
+    width: 24px;
+    height: auto;
+}
 
 /* Footer */
 
