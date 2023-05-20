@@ -183,9 +183,6 @@ h2 {
     color: var(--peach);
 }
 
-/* .img-pauline {
-    height: 100px;
-} */
 
 .desktop-nav {
     display: none;
@@ -239,9 +236,6 @@ h2 {
         display: none;
     }
 
-    /* .img-pauline {
-        height: 100px;
-    } */
 }
 
 /* End @media header/hero */
@@ -295,10 +289,22 @@ h2 {
 
 /* welcome-to-me */
 
-.welcome-to-me {
+#imgpauline {
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 24px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.welcome-to-me {
+    color: var(--peach);
+    border: 2px solid var(--peach);
+    padding: 24px;
+    margin-bottom: 24px;
+    background-color: var(--lightgreen);
 }
 
 /* Contact section */
@@ -376,18 +382,21 @@ h2 {
 }
 
 
+
+
 /* social-links */
 
-#social-links {
-    height: 24px;
-    flex-direction: row;
-    display: flex;
-    justify-content: space-around;
-    /* align-items: center; */
-}
-
 .imgfacebook, .imgtwitter, .imginstagram, .imggithub {
-    color: var(--green);
+    fill: #74d47d;
+    height: 40px;
+    /* flex-direction: row; */
+    /* display: flex; */
+    /* display: inline-block; */
+    /* justify-content: center; */
+    align-items: center;
+    display:inline;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
