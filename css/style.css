@@ -131,7 +131,7 @@ h2 {
 }
 
 .hero-accent {
-    color: var(--green);
+    color: var(--pur);
     text-decoration: none;
 }
 
@@ -441,9 +441,7 @@ h2 {
     padding: 24px;
 }
 
-@media (min-width: 768px) {
-
-    .passion1,
+    /* .passion1,
     .work1,
     .work2,
     .work3 {
@@ -460,8 +458,8 @@ h2 {
         padding-right: auto;
         margin-left: auto;
         margin-right: auto;
-    }
-}
+} */
+
 
 
 .passion1,
@@ -486,6 +484,8 @@ h2 {
 .example-proj {
     text-align: center;
     padding-bottom: 24px;
+    width: auto;
+    color: var(--purple);
 }
 
 
