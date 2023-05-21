@@ -42,14 +42,61 @@ Please include the following:
 
 #### Desktop images
 
-![ Desktop images of the pages various features ](./img/desktop-screencaptures)
+
+![ Desktop index page ](./img/desktop-screencaptures/desktop-index-1.png)
+![ Desktop index page showing hover state on title ](./img/desktop-screencaptures/desktop-index-2.png)
+![ Desktop index page showing hover state on nav ](./img/desktop-screencaptures/desktop-index-3.png)
+![ Desktop index page hover state ](./img/desktop-screencaptures/desktop-index-4.png)
+![ Desktop index page bottom of page ](./img/desktop-screencaptures/desktop-index-5.png)
+![ Desktop index page hover state on pauline ](./img/desktop-screencaptures/desktop-index-6.png)
+![ Desktop welcome page ](./img/desktop-screencaptures/desktop-welcome-1.png)
+![ Desktop welcome page ](./img/desktop-screencaptures/desktop-welcome-2.png)
+![ Desktop passion page ](./img/desktop-screencaptures/desktop-passion-1.png)
+![ Desktop passion page ](./img/desktop-screencaptures/desktop-passion-2.png)
+![ Desktop work page ](./img/desktop-screencaptures/desktop-work-1.png)
+![ Desktop work page ](./img/desktop-screencaptures/desktop-work-2.png)
+![ Desktop connect page ](./img/desktop-screencaptures/desktop-connect-1.png)
+![ Desktop connect page showing form ](./img/desktop-screencaptures/desktop-connect-2.png)
+![ Desktop connect page optional dropdown menu of fav colour ](./img/desktop-screencaptures/desktop-connect-3.png)
+![ Desktop connect page hover effect on submit button ](./img/desktop-screencaptures/desktop-connect-4.png)
+
 
 
 #### Tablet images
 
-![ Tablet images of the pages various features ](./tablet-screencaptures)
+
+![ Tablet index page ](./img/tablet-screencaptures/tablet-index-1.png)
+![ Tablet index page ](./img/tablet-screencaptures/tablet-index-2.png)
+![ Tablet index index page ](./img/tablet-screencaptures/tablet-index-3.png)
+![ Tablet welcome page ](./img/tablet-screencaptures/tablet-welcome-1.png)
+![ Tablet welcome page ](./img/tablet-screencaptures/tablet-welcome-2.png)
+![ Tablet passion page ](./img/tablet-screencaptures/tablet-passion-1.png)
+![ Tablet passion opage ](./img/tablet-screencaptures/tablet-passion-2.png)
+![ Tablet work page ](./img/tablet-screencaptures/tablet-work-1.png)
+![ Tablet work page ](./img/tablet-screencaptures/tablet-work-2.png)
+![ Tablet connect page ](./img/tablet-screencaptures/tablet-connect-1.png)
+![ Tablet connect page ](./img/tablet-screencaptures/tablet-connect-2.png)
+![ Tablet connect page ](./img/tablet-screencaptures/tablet-connect-3.png)
 
 
 #### Mobile images
 
-![ Mobile images of the pages various features ](./mobile-screencaptures)
+
+![ Mobile index page ](./img/mobile-screencaptures/mobile-index-1.png)
+![ Mobile index page showing hover state on title ](./img/mobile-screencaptures/mobile-index-2.png)
+![ Mobile index page showing hover state on hamburger-icon ](./img/mobile-screencaptures/mobile-index-3.png)
+![ Mobile index page hover state on pauline ](./img/mobile-screencaptures/mobile-index-4.png)
+![ Mobile index bottom of page ](./img/mobile-screencaptures/mobile-index-5.png)
+![ Mobile welcome page](./img/mobile-screencaptures/mobile-welcome-1.png)
+![ Mobile welcome page ](./img/mobile-screencaptures/mobile-welcome-2.png)
+![ Mobile welcome page ](./img/mobile-screencaptures/mobile-welcome-3.png)
+![ Mobile passion page ](./img/mobile-screencaptures/mobile-passion-1.png)
+![ Mobile passion page ](./img/mobile-screencaptures/mobile-passion-2.png)
+![ Mobile work page ](./img/mobile-screencaptures/mobile-work-1.png)
+![ Mobile work page ](./img/mobile-screencaptures/mobile-work-2.png)
+![ Mobile work page ](./img/mobile-screencaptures/mobile-work-3.png)
+![ Mobile connect page ](./img/mobile-screencaptures/mobile-connect-1.png)
+![ Mobile connect page showing form ](./img/mobile-screencaptures/mobile-connect-2.png)
+![ Mobile connect page showing dropdown menu ](./img/mobile-screencaptures/mobile-connect-3.png)
+![ Mobile connect of the pages various features hover effect on submit button ](./img/mobile-screencaptures/mobile-connect-4.png)
+![ Mobile connect page showing hover states ](./img/mobile-screencaptures/mobile-connect-5.png)
