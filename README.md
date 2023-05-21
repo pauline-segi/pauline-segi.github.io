@@ -5,11 +5,11 @@
 ## Project Requirements
 
 ### Content
-You'll find my profile picture in the 'Welcome to me!' page. This also contains a short biography for me including some background info and my hopes for what I'll gain with the new skills I'm learning in the She Codes Plus Program.
+You'll find my profile picture in the 'Welcome to me!' page. This also contains a short biography including some background info and my hopes for what I'll gain with the new skills I'm learning in the She Codes Plus Program.
 My contact form is on the Connect page, and you can submit a form to me using Formspree.
 I have included two projects section, one for work and one for passion. I plan on building these (particularly the passion section!) as my knowledge grows. 
-All the icon images are linked below (though I do have some privacy settings on the social media accounts until I get myself unique work accounts).
-I didn't really work on the Tablet format, I focused mainly on mobile, then desktop. So my tablet display properties are not even close to finish, but I will aim to get them done!
+All the icon images are linked to their particular page (though I do have some privacy settings on the social media accounts until I get myself unique work accounts). I have also linked my name at the bottom to linkedin.
+I realised I didn't work on or consider the Tablet format at all, I focused mainly on mobile, then desktop. So my tablet display properties are not even close to finish, but I will aim to get them done!
 - [ ] At least one profile picture
 - [ ] Biography (at least 100 words)
 - [ ] Functional Contact Form
@@ -42,14 +42,14 @@ Please include the following:
 
 #### Desktop images
 
-![ {{ Description of image }} ]( {{ ./relative_path_to_file }} )
+![ Desktop images of the pages various features ](./img/desktop-screencaptures)
 
 
 #### Tablet images
 
-![ {{ Description of image }} ]( {{ ./relative_path_to_file }} )
+![ Tablet images of the pages various features ](./tablet-screencaptures)
 
 
 #### Mobile images
 
-![ {{ Description of image }} ]( {{ ./relative_path_to_file }} )
+![ Mobile images of the pages various features ](./mobile-screencaptures)
